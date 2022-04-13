@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed Apr 13 14:49:58 2022
+# Process ID: 66860
+# Current directory: C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent135816 C:\Users\fmabrouk\Documents\FPGA\SCRs_Controller_Simulated\SineWave.xpr
+# Log file: C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated/vivado.log
+# Journal file: C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated/SineWave.xpr
+update_compile_order -fileset sources_1
+
+launch_simulation
+open_wave_config C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated/sinewaves_behav.wcfg
+source ThreePhase_SCRs_Controller.tcl
+add_force {/ThreePhase_SCRs_Controller/clock} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/ThreePhase_SCRs_Controller/reset} -radix hex {1 0ns} -cancel_after 0
+add_force {/ThreePhase_SCRs_Controller/reset} -radix hex {1 0ns} -cancel_after 300ns
+run all
+run all
+add_force {/ThreePhase_SCRs_Controller/clock} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/ThreePhase_SCRs_Controller/reset} -radix hex {1 0ns} -cancel_after 300ns
+run all
+restart
+add_force {/ThreePhase_SCRs_Controller/clock} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/ThreePhase_SCRs_Controller/reset} -radix hex {1 0ns} -cancel_after 300ns
+run all
+save_wave_config {C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated/sinewaves_behav.wcfg}

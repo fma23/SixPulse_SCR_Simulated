@@ -1,0 +1,463 @@
+
+*** Running vivado
+    with args -log ThreePhase_SCRs_Controller.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ThreePhase_SCRs_Controller.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source ThreePhase_SCRs_Controller.tcl -notrace
+Command: synth_design -top ThreePhase_SCRs_Controller -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 255860 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 363.215 ; gain = 82.902
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ThreePhase_SCRs_Controller' [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:22]
+	Parameter HalfCycle_Counts bound to: 2000000 - type: integer 
+	Parameter FiringPulse_RisingEdge bound to: 500000 - type: integer 
+	Parameter FiringPulse_FallingEdge bound to: 1166667 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ThreePhase_SCRs_Controller' (1#1) [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 402.539 ; gain = 122.227
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 402.539 ; gain = 122.227
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/FPGA/SCRs_Controller_0518/ConstraintsFile.xdc]
+Finished Parsing XDC File [E:/FPGA/SCRs_Controller_0518/ConstraintsFile.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/FPGA/SCRs_Controller_0518/ConstraintsFile.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ThreePhase_SCRs_Controller_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ThreePhase_SCRs_Controller_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 732.027 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:27 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:141]
+WARNING: [Synth 8-6014] Unused sequential element index1_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:137]
+WARNING: [Synth 8-6014] Unused sequential element index2_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:138]
+WARNING: [Synth 8-6014] Unused sequential element index3_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:139]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter1_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:297]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter2_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:298]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter3_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:299]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter4_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:300]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter5_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:301]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter6_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:302]
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:416]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:28 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 6     
++---Registers : 
+	                9 Bit    Registers := 6     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 24    
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ThreePhase_SCRs_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 6     
++---Registers : 
+	                9 Bit    Registers := 6     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 24    
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter1_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:297]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter2_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:298]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter3_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:299]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter4_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:300]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter5_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:301]
+WARNING: [Synth 8-6014] Unused sequential element PhaseCounter6_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:302]
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:416]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:141]
+WARNING: [Synth 8-6014] Unused sequential element index1_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:137]
+WARNING: [Synth 8-6014] Unused sequential element index3_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:139]
+WARNING: [Synth 8-6014] Unused sequential element index2_reg was removed.  [E:/FPGA/SCRs_Controller_0518/Sinewaves.vhd:138]
+INFO: [Synth 8-3886] merging instance 'i_76' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_177' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_178' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_179' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_180' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_181' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_182' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_183' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_184' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_185' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_186' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_187' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_153' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_154' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_155' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_156' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_157' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_158' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_159' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_160' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_161' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_162' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_163' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_127' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_128' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_129' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_130' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_131' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_132' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_133' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_134' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_135' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_136' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_137' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_103' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_104' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_105' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_106' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_107' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_108' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_109' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_110' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_111' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_112' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_113' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_77' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_78' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_79' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_80' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_81' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_82' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_83' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_84' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_85' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_86' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_87' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_51' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_52' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_53' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_54' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_55' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_56' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_57' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_58' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_59' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_60' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_61' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_50' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_126' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_102' (FDCE) to 'i_176'
+INFO: [Synth 8-3886] merging instance 'i_176' (FDCE) to 'i_152'
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[10]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[9]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[8]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[7]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[6]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[5]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[4]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[3]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[2]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[1]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_dly_retimed_reg[0]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[10]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[9]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[8]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[7]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[6]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[5]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[4]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[3]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[2]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[1]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine1_out_retimed_reg[0]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[10]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[9]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[8]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[7]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[6]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[5]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[4]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[3]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[2]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[1]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_dly_retimed_reg[0]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[10]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[9]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[8]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[7]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[6]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[5]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[4]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[3]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[2]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[1]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine3_out_retimed_reg[0]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[10]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[9]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[8]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[7]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[6]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[5]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[4]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[3]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[2]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[1]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_dly_retimed_reg[0]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[10]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[9]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[8]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[7]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[6]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[5]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[4]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[3]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[2]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[1]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+WARNING: [Synth 8-3332] Sequential element (Sine2_out_retimed_reg[0]) is unused and will be removed from module ThreePhase_SCRs_Controller.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------------+------------------+---------------+----------------+
+|Module Name                | RTL Object       | Depth x Width | Implemented As | 
++---------------------------+------------------+---------------+----------------+
+|ThreePhase_SCRs_Controller | SineConstants[0] | 512x12        | LUT            | 
+|ThreePhase_SCRs_Controller | SineConstants[0] | 512x12        | LUT            | 
+|ThreePhase_SCRs_Controller | SineConstants[0] | 512x12        | LUT            | 
+|ThreePhase_SCRs_Controller | SineConstants[0] | 512x12        | LUT            | 
+|ThreePhase_SCRs_Controller | SineConstants[0] | 512x12        | LUT            | 
+|ThreePhase_SCRs_Controller | SineConstants[0] | 512x12        | LUT            | 
++---------------------------+------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:41 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    81|
+|3     |LUT1   |    67|
+|4     |LUT2   |   152|
+|5     |LUT3   |   126|
+|6     |LUT4   |    12|
+|7     |LUT5   |    12|
+|8     |LUT6   |    28|
+|9     |FDCE   |   234|
+|10    |FDPE   |    12|
+|11    |FDRE   |    25|
+|12    |IBUF   |     2|
+|13    |OBUF   |    14|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   766|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 732.027 ; gain = 451.715
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 88 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:29 . Memory (MB): peak = 732.027 ; gain = 122.227
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:43 . Memory (MB): peak = 732.027 ; gain = 451.715
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+84 Infos, 88 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:47 . Memory (MB): peak = 732.027 ; gain = 456.734
+INFO: [Common 17-1381] The checkpoint 'E:/FPGA/SCRs_Controller_0518/SineWave.runs/synth_1/ThreePhase_SCRs_Controller.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 732.027 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 13 14:07:53 2022...

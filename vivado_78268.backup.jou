@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Mar 25 13:34:32 2022
+# Process ID: 78268
+# Current directory: E:/FPGA/SCRs_Controller_0518
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent108776 E:\FPGA\SCRs_Controller_0518\SineWave.xpr
+# Log file: E:/FPGA/SCRs_Controller_0518/vivado.log
+# Journal file: E:/FPGA/SCRs_Controller_0518\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/SCRs_Controller_0518/SineWave.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project E:/FPGA/SCRs_XADC_Sqwave/SineWave.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project -read_only E:/FPGA/SCRs_SB7/SCRs_AXI.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project E:/FPGA/SCRs_Controller_0518/SineWave.xpr
+update_compile_order -fileset sources_1

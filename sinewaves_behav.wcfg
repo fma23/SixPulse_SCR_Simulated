@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ThreePhase_SCRs_Controller_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ThreePhase_SCRs_Controller" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="29000000000000fs"></ZoomStartTime>
+      <ZoomEndTime time="143200000000001fs"></ZoomEndTime>
+      <Cursor1Time time="48300000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="80"></NameColumnWidth>
+      <ValueColumnWidth column_width="241"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wave_markers>
+      <marker time="525032980000000" label="" />
+      <marker time="1055472601773000" label="" />
+      <marker time="51800000000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sine1_out" type="array">
+      <obj_property name="ElementShortName">Sine1_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Sine1_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sine2_out" type="array">
+      <obj_property name="ElementShortName">Sine2_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Sine2_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sine3_out" type="array">
+      <obj_property name="ElementShortName">Sine3_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Sine3_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Thyristors" type="array">
+      <obj_property name="ElementShortName">Thyristors[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Thyristors[5:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sine3_out_dly" type="array">
+      <obj_property name="ElementShortName">Sine3_out_dly[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Sine3_out_dly[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave1_CrossUp" type="logic">
+      <obj_property name="ElementShortName">Sinewave1_CrossUp</obj_property>
+      <obj_property name="ObjectShortName">Sinewave1_CrossUp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sine1_out_dly" type="array">
+      <obj_property name="ElementShortName">Sine1_out_dly[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Sine1_out_dly[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave1_CrossUp" type="logic">
+      <obj_property name="ElementShortName">Sinewave1_CrossUp</obj_property>
+      <obj_property name="ObjectShortName">Sinewave1_CrossUp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave1_CrossUp_dly1" type="logic">
+      <obj_property name="ElementShortName">Sinewave1_CrossUp_dly1</obj_property>
+      <obj_property name="ObjectShortName">Sinewave1_CrossUp_dly1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave1_CrossUp_dly2" type="logic">
+      <obj_property name="ElementShortName">Sinewave1_CrossUp_dly2</obj_property>
+      <obj_property name="ObjectShortName">Sinewave1_CrossUp_dly2</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave1_CrossDwn" type="logic">
+      <obj_property name="ElementShortName">Sinewave1_CrossDwn</obj_property>
+      <obj_property name="ObjectShortName">Sinewave1_CrossDwn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave2_CrossUp" type="logic">
+      <obj_property name="ElementShortName">Sinewave2_CrossUp</obj_property>
+      <obj_property name="ObjectShortName">Sinewave2_CrossUp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave2_CrossDwn" type="logic">
+      <obj_property name="ElementShortName">Sinewave2_CrossDwn</obj_property>
+      <obj_property name="ObjectShortName">Sinewave2_CrossDwn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave3_CrossUp" type="logic">
+      <obj_property name="ElementShortName">Sinewave3_CrossUp</obj_property>
+      <obj_property name="ObjectShortName">Sinewave3_CrossUp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sinewave3_CrossDwn" type="logic">
+      <obj_property name="ElementShortName">Sinewave3_CrossDwn</obj_property>
+      <obj_property name="ObjectShortName">Sinewave3_CrossDwn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/SW1_CrossUp_Pulse" type="logic">
+      <obj_property name="ElementShortName">SW1_CrossUp_Pulse</obj_property>
+      <obj_property name="ObjectShortName">SW1_CrossUp_Pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/SW1_CrossDwn_Pulse" type="logic">
+      <obj_property name="ElementShortName">SW1_CrossDwn_Pulse</obj_property>
+      <obj_property name="ObjectShortName">SW1_CrossDwn_Pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/SW2_CrossUp_Pulse" type="logic">
+      <obj_property name="ElementShortName">SW2_CrossUp_Pulse</obj_property>
+      <obj_property name="ObjectShortName">SW2_CrossUp_Pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/SW2_CrossDwn_Pulse" type="logic">
+      <obj_property name="ElementShortName">SW2_CrossDwn_Pulse</obj_property>
+      <obj_property name="ObjectShortName">SW2_CrossDwn_Pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/SW3_CrossUp_Pulse" type="logic">
+      <obj_property name="ElementShortName">SW3_CrossUp_Pulse</obj_property>
+      <obj_property name="ObjectShortName">SW3_CrossUp_Pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/SW3_CrossDwn_Pulse" type="logic">
+      <obj_property name="ElementShortName">SW3_CrossDwn_Pulse</obj_property>
+      <obj_property name="ObjectShortName">SW3_CrossDwn_Pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/SynchFlag" type="array">
+      <obj_property name="ElementShortName">SynchFlag[5:0]</obj_property>
+      <obj_property name="ObjectShortName">SynchFlag[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/PhaseCounter1" type="other">
+      <obj_property name="ElementShortName">PhaseCounter1</obj_property>
+      <obj_property name="ObjectShortName">PhaseCounter1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/PhaseCounter2" type="other">
+      <obj_property name="ElementShortName">PhaseCounter2</obj_property>
+      <obj_property name="ObjectShortName">PhaseCounter2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/PhaseCounter3" type="other">
+      <obj_property name="ElementShortName">PhaseCounter3</obj_property>
+      <obj_property name="ObjectShortName">PhaseCounter3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/PhaseCounter4" type="other">
+      <obj_property name="ElementShortName">PhaseCounter4</obj_property>
+      <obj_property name="ObjectShortName">PhaseCounter4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/PhaseCounter5" type="other">
+      <obj_property name="ElementShortName">PhaseCounter5</obj_property>
+      <obj_property name="ObjectShortName">PhaseCounter5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/PhaseCounter6" type="other">
+      <obj_property name="ElementShortName">PhaseCounter6</obj_property>
+      <obj_property name="ObjectShortName">PhaseCounter6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sine1_out_dly" type="array">
+      <obj_property name="ElementShortName">Sine1_out_dly[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Sine1_out_dly[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ThreePhase_SCRs_Controller/Sine2_out_dly" type="array">
+      <obj_property name="ElementShortName">Sine2_out_dly[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Sine2_out_dly[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

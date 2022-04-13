@@ -1,0 +1,89 @@
+/*
+
+Vivado v2017.1 (64-bit)
+SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+
+Process ID: 66860
+License: Customer
+
+Current time: 	4/13/22 2:50:19 PM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 126 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinxx/Vivado/2017.1/tps/win64/jre
+JVM executable location: 	C:/Xilinxx/Vivado/2017.1/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinxx/Vivado/2017.1/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinxx/Vivado/2017.1/bin;C:/Xilinxx/Vivado/2017.1/lib/win64.o;C:/Xilinxx/Vivado/2017.1/tps/win64/jre/bin/server;C:/Xilinxx/Vivado/2017.1/tps/win64/jre/bin;C:/Xilinxx/SDK/2017.1/bin;C:/Xilinxx/Vivado/2017.1/ids_lite/ISE/bin/nt64;C:/Xilinxx/Vivado/2017.1/ids_lite/ISE/lib/nt64;C:/Xilinxx/Vivado_HLS/2017.1/bin;c:/Software/octave3.6.4/bin;C:/Program Files (x86)/Qucs/bin;C:/Program Files (x86)/Intel/MPI-RT/4.0.3.010/em64t/bin;C:/Program Files (x86)/Intel/MPI-RT/4.0.3.010/ia32/bin;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Program Files (x86)/Intel/iCLS Client/;C:/Program Files/Intel/iCLS Client/;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT;C:/ProgramData/Lenovo/ReadyApps;C:/Program Files (x86)/mingw32/bin;C:/Program Files (x86)/QuickTime/QTSystem/;C:/Program Files/TortoiseSVN/bin;C:/Program Files/PothosSDR/bin;C:/Windows/System32/OpenSSH/;C:/Program Files/MATLAB/R2018a/runtime/win64;C:/Program Files/MATLAB/R2018a/bin;C:/Program Files/Git/cmd;C:/Users/fmabrouk/AppData/Local/Microsoft/WindowsApps;;C:/Program Files (x86)/Skyworks/ClockBuilder Pro/Bin;C:/Xilinxx/Vivado/2017.1/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinxx/Vivado/2017.1/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	fmabrouk
+User home directory: C:/Users/fmabrouk
+User working directory: C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinxx/Vivado
+HDI_APPROOT: C:/Xilinxx/Vivado/2017.1
+RDI_DATADIR: C:/Xilinxx/Vivado/2017.1/data
+RDI_BINDIR: C:/Xilinxx/Vivado/2017.1/bin
+
+User preferences location: C:/Users/fmabrouk/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/fmabrouk/AppData/Roaming/Xilinx/Vivado/2017.1/vivado.xml
+Vivado layouts directory: C:/Users/fmabrouk/AppData/Roaming/Xilinx/Vivado/2017.1/layouts
+PlanAhead jar location: 	C:/Xilinxx/Vivado/2017.1/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated/.Xil/Vivado-66860-DVANOFFICE-071
+
+GUI allocated memory:	193 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 542 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 54 MB (+54613kb) [00:00:08]
+// [Engine Memory]: 478 MB (+349739kb) [00:00:08]
+// Opening Vivado Project: C:\Users\fmabrouk\Documents\FPGA\SCRs_Controller_Simulated\SineWave.xpr. Version: Vivado v2017.1 
+// bs:g (cg:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated/SineWave.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated/SineWave.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/FPGA/SCRs_Controller_0518' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 58 MB (+945kb) [00:00:12]
+// [Engine Memory]: 542 MB (+42411kb) [00:00:12]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 78 MB (+17846kb) [00:00:13]
+// [Engine Memory]: 583 MB (+13944kb) [00:00:13]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinxx/Vivado/2017.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 618 MB. GUI used memory: 43 MB. Current time: 4/13/22 2:50:24 PM PDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 841.613 ; gain = 39.598 
+// [Engine Memory]: 628 MB (+16980kb) [00:00:16]
+// Project name: SineWave; location: C:/Users/fmabrouk/Documents/FPGA/SCRs_Controller_Simulated; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 654 MB. GUI used memory: 42 MB. Current time: 4/13/22 3:11:56 PM PDT
+// [GUI Memory]: 83 MB (+637kb) [00:28:50]
+// [GUI Memory]: 88 MB (+923kb) [00:34:33]
+// TclEventType: FILE_SET_CHANGE
